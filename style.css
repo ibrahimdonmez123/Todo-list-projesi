@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#title{
+text-align: center;
+font-size: 50px ;
+}
+
+
+#girilendeger{
+    width: 300px;
+    height: 46px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    border: 3px solid orange;
+    border-radius: 15px;
+}
+
+#todoekle{
+height: 45px;
+width: 80px;
+border: 1px solid black;
+vertical-align: middle;
+outline: none;
+cursor: pointer;
+background-color: green;
+color: #fff;
+border-radius: 10px;
+}
+
+/*javascript'te hover active olur....*/
+
+#todoekle:active{
+background-color: rgba(0, 128, 0, 0.445);
+color: green;
+}
+
+#todosil{
+    height: 45px;
+width: 80px;
+border: 1px solid black;
+vertical-align: middle;
+outline: none;
+cursor: pointer;
+background-color: red;
+color: #fff;
+border-radius: 10px;
+}
+
+#todosil:active{
+    background-color: rgba(255, 0, 0, 0.356);
+    color: red;
+}
+
+.paragraf-styling{
+    margin: 0;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 35px;
+    color: rgba(165, 35, 165, 0.774);
+    text-transform: capitalize;
+}
